@@ -1,4 +1,5 @@
 import React from 'react';
+import noImage from '../assets/images/no_image.png';
 
 function Image({
   src,
@@ -13,7 +14,10 @@ function Image({
       alt={alt}
       className={className}
       onError={(e) => {
-        e.target.src = "/assets/images/no_image.png"
+        // Prevent infinite loop by checking if we're already showing the fallback
+        if (e.target.src !== noImage) {
+          e.target.src = noImage;
+        }
       }}
       {...props}
     />

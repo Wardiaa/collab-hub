@@ -16,10 +16,10 @@ const UserProfileMenu = () => {
   };
 
   const menuItems = [
-    { label: 'Profile Settings', icon: 'User', action: () => console.log('Profile') },
-    { label: 'Workspace Settings', icon: 'Settings', action: () => console.log('Settings') },
-    { label: 'Preferences', icon: 'Sliders', action: () => console.log('Preferences') },
-    { label: 'Help & Support', icon: 'HelpCircle', action: () => console.log('Help') },
+    { label: 'Profile Settings', icon: 'User', action: () => navigate('/profile-settings') },
+    { label: 'Workspace Settings', icon: 'Settings', action: () => navigate('/workspace-settings') },
+    { label: 'Preferences', icon: 'Sliders', action: () => navigate('/preferences') },
+    { label: 'Help & Support', icon: 'HelpCircle', action: () => navigate('/help-support') },
   ];
 
   const toggleDropdown = () => {
