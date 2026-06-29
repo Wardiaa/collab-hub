@@ -1,13 +1,13 @@
-import Header from "components/navigation/Header";
-import  Button  from "components/ui/Button";
+import Header from "components/navigation/Header.jsx";
+import  Button  from "components/ui/Button.jsx";
 import {
   Card,
   CardContent,
   CardHeader,
 } from "components/ui/card";
 import  Input  from "components/ui/Input.jsx";
-import { Label } from "components/ui/label";
-import { Avatar, AvatarFallback, AvatarImage } from "components/ui/avatar";
+import { Label } from "components/ui/label.jsx";
+import { Avatar, AvatarFallback, AvatarImage } from "components/ui/avatar.jsx";
 import { Camera } from "lucide-react";
 import { useState } from "react";
 

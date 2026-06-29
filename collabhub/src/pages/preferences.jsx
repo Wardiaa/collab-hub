@@ -6,9 +6,9 @@ import {
   CardHeader,
   CardTitle,
 } from "components/ui/card";
-import { Label } from "components/ui/label";
-import { Switch } from "components/ui/switch";
-import  Button  from "components/ui/button";
+import { Label } from "components/ui/label.jsx";
+import { Switch } from "components/ui/switch.jsx";
+import  Button  from "components/ui/Button.jsx";
 import { Moon, Sun, Bell, Monitor } from "lucide-react";
 import { useState } from "react";
 

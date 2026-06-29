@@ -1,15 +1,15 @@
 import { useState } from "react";
-import Header from "components/navigation/Header";
-import  Button  from "components/ui/Button";
+import Header from "components/navigation/Header.jsx";
+import  Button  from "components/ui/Button.jsx";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "components/ui/card";
+} from "components/ui/card.jsx";
 import  Input  from "components/ui/Input.jsx";
-import { Label } from "components/ui/label";
+import { Label } from "components/ui/label.jsx";
 import {
   Table,
   TableBody,

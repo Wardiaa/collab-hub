@@ -1,11 +1,11 @@
-import Header from "components/navigation/Header";
+import Header from "components/navigation/Header.jsx";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "components/ui/accordion";
-import  Button from "components/ui/Button";
+} from "components/ui/accordion.jsx";
+import  Button from "components/ui/Button.jsx";
 import {
   Card,
   CardContent,
@@ -13,9 +13,9 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "components/ui/card";
+} from "components/ui/card.jsx";
 import  Input  from "components/ui/Input.jsx";
-import { Label } from "components/ui/label";
+import { Label } from "components/ui/label.jsx";
 import { Textarea } from "components/ui/textarea";
 import { Mail, MessageCircle, FileText } from "lucide-react";
 import { useState } from "react";
