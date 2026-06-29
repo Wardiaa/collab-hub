@@ -11,8 +11,8 @@ import WorkspaceDashboard from './pages/workspace-dashboard';
 import CalendarIntegration from './pages/calendar-integration';
 import VideoConference from './pages/video-conference';
 import Registration from './pages/registration';
-import ProfileSettings from './pages/ProfileSettings.jsx';
-import WorkspaceSettings from './pages/WorkspaceSettings.jsx';
+import ProfileSettings from './pages/profileSettings.jsx';
+import WorkspaceSettings from './pages/workspaceSettings.jsx';
 import HelpSupport from './pages/helpsupport.jsx';
 import Preferences from "pages/preferences.jsx";
 
