@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
 import ScrollToTop from "components/ScrollToTop";
 import ErrorBoundary from "components/ErrorBoundary";
-import NotFound from "pages/NotFound";
+import NotFound from "pages/NotFound.jsx";
 import ProjectManagement from './pages/project-management';
 import FileManagement from './pages/file-management';
 import Login from './pages/login';
@@ -11,10 +11,10 @@ import WorkspaceDashboard from './pages/workspace-dashboard';
 import CalendarIntegration from './pages/calendar-integration';
 import VideoConference from './pages/video-conference';
 import Registration from './pages/registration';
-import ProfileSettings from './pages/ProfileSettings';
-import WorkspaceSettings from './pages/WorkspaceSettings';
-import HelpSupport from './pages/helpsupport';
-import Preferences from "pages/preferences";
+import ProfileSettings from './pages/ProfileSettings.jsx';
+import WorkspaceSettings from './pages/WorkspaceSettings.jsx';
+import HelpSupport from './pages/helpsupport.jsx';
+import Preferences from "pages/preferences.jsx";
 
 
 const Routes = () => {
